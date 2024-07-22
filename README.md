@@ -24,7 +24,7 @@ Navega a la carpeta de tu proyecto y ejecuta el siguiente comando para instalar 
 cd tu-proyecto
 npm install
 
-##onfigurar variables de entorno (si es necesario):
+##Configurar variables de entorno (si es necesario):
 
 Si tu proyecto usa variables de entorno, asegúrate de crear un archivo .env en la raíz del proyecto con las variables necesarias. Puedes proporcionar un archivo de ejemplo llamado .env.example en tu repositorio para facilitar esta tarea.
 Ejecutar el proyecto:
