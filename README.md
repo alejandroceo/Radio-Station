@@ -32,3 +32,20 @@ Ejecutar el proyecto:
 Dependiendo de cómo esté configurado tu proyecto, puede que necesites ejecutar uno de estos comandos para iniciar el servidor:
 
 ##npm start
+
+
+----
+
+mkdir radio-station
+cd radio-station
+npm init -y
+
+
+npm install express
+npm install fluent-ffmpeg
+npm install ws
+
+node server.js
+
+
+Abre tu navegador y visita http://localhost:8000
