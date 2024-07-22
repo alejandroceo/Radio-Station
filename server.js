@@ -26,7 +26,7 @@ app.get('/stream', (req, res) => {
     });
 
     // Command to stream audio to Icecast
-    const ffmpegStream = ffmpeg('/home/predator/Escritorio/radio-station/musicas/vallenatos.mp3')
+    const ffmpegStream = ffmpeg('musicas/vallenatos.mp3')
         .format('mp3')
         .audioBitrate(128)
         .on('error', (err) => {
