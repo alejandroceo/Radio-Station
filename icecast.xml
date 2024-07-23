@@ -1,0 +1,24 @@
+<icecast>
+    <limits>
+        <clients>100</clients>
+        <sources>2</sources>
+    </limits>
+
+    <authentication>
+        <admin-user>admin</admin-user>
+        <admin-password>hackme</admin-password>
+    </authentication>
+
+    <hostname>localhost</hostname>
+    <listen-socket>
+        <port>8000</port>
+    </listen-socket>
+
+    <mount>
+        <mount-name>/stream</mount-name>
+        <file>musicas/vallenatos.mp3</file>
+        <public>1</public>
+    </mount>
+
+    <fileserve>1</fileserve>
+</icecast>
